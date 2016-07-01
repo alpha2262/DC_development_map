@@ -1,0 +1,94 @@
+== PLANNING
+
+BRONZE:
+* two modules, one for site and one for comments
+* ability to add a site
+  * name of site/post? (text)
+  * location (text)
+  * type of construction; new or renovation (text)
+  * type of building; commercial, residential, etc. (text; drop down?)
+    * get
+    * post
+    * put
+    * delete
+* ability to add comments
+  * association: comments < sites
+  * user (text)
+  * new stores coming in?
+  * link to more info/scoops from other sites e.g. PoP, DCist
+  * general comment on development (text)
+  * post ID (inherited)
+    * get
+    * post
+    * put
+    * delete
+* deploy online? separate lesson on this next week...
+
+SILVER:
+* add up voting for comments
+* nest comments? (might have to do this anyway in bronze)
+* add css/html basics
+* enhance location
+  * option to either enter a full, real address or
+  * text field of general location
+* mapping of locations via openstreets?
+
+
+
+
+
+User stories/wireframing:
+* input map of development in the area and new items coming in
+* users can enter new projects and/or add comments on existing projects
+*
+
+index page:
+* listing of project names, ideally with locations too
+** segment out by region?
+*
+
+attributes:
+* site
+** location: text entry, not geo-tagged-specific
+*
+
+
+
+
+
+
+
+
+
+
+
+
+
+== README
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
+
+
+Please feel free to use a different markup language if you do not plan to run
+<tt>rake doc:app</tt>.
