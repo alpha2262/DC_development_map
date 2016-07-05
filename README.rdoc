@@ -1,9 +1,13 @@
 == PLANNING
 
+Tues:
+* add seed data
+* get basic database to accept data
+* schema and migrations set up?
+
 BRONZE:
 * two modules, one for site and one for comments
 * ability to add a site
-  * name of site/post? (text)   #removed since location is somewhat the name
   * location (text)
   * type of construction; new or renovation (text)
   * type of building; commercial, residential, etc. (text; drop down?)
@@ -34,7 +38,8 @@ SILVER:
   * text field of general location
 * mapping of locations via open streets map?
 
-
+GOLD:
+* TBD
 
 
 
@@ -42,9 +47,8 @@ User stories/wire framing:
 as a user I'm able to...
 * see a listing of locations when visiting the homepage
 * click an existing listing to see comments and additional details
-* input map of development in the area and new items coming in
+* input location of new development in the area
 * users can enter new projects and/or add comments on existing projects
-*
 
 index page:
 * listing of project names, ideally with locations too
