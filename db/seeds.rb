@@ -5,3 +5,12 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+# Comment.destroy_all
+# Site.destroy_all
+#
+# residentialX = Site.create(location: "The X", construction_type: "new", building_type: "residential")
+# placeY = Site.create(location: "The Y", construction_type: "rennovation", building_type: "mixed use, commercial")
+#
+# Comment.create(user: "person A", link: "www.google.com", site: residentialX )
+# Comment.create(user: "Person B", link: "www.popville.com", site: placeY)
