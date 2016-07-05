@@ -3,7 +3,7 @@
 BRONZE:
 * two modules, one for site and one for comments
 * ability to add a site
-  * name of site/post? (text)
+  * name of site/post? (text)   #removed since location is somewhat the name
   * location (text)
   * type of construction; new or renovation (text)
   * type of building; commercial, residential, etc. (text; drop down?)
@@ -24,6 +24,7 @@ BRONZE:
     * delete
 * deploy online? separate lesson on this next week...
 
+
 SILVER:
 * add up voting for comments
 * nest comments? (might have to do this anyway in bronze)
@@ -31,13 +32,16 @@ SILVER:
 * enhance location
   * option to either enter a full, real address or
   * text field of general location
-* mapping of locations via openstreets?
+* mapping of locations via open streets map?
 
 
 
 
 
-User stories/wireframing:
+User stories/wire framing:
+as a user I'm able to...
+* see a listing of locations when visiting the homepage
+* click an existing listing to see comments and additional details
 * input map of development in the area and new items coming in
 * users can enter new projects and/or add comments on existing projects
 *
