@@ -1,10 +1,17 @@
 == PLANNING
 
 Tues:
-* add seed data (including comments)
+* DONE add seed data (including comments)
 * get basic database to accept data
 * show data (persist)
-* schema and migrations set up?
+* DONE schema and migrations set up?
+
+Wed:
+* edit for sites
+* delete for sites
+* add basic css
+* validate html and css
+* wireframes photos (2 or more)
 
 BRONZE:
 * two modules, one for site and one for comments
@@ -46,10 +53,13 @@ GOLD:
 
 User stories/wire framing:
 as a user I'm able to...
-* see a listing of locations when visiting the homepage
-* click an existing listing to see comments and additional details
+* view a listing of locations when visiting the homepage
+* click an existing site listing to see comments and additional details
 * input location of new development in the area
-* users can enter new projects and/or add comments on existing projects
+* enter new comments on existing projects
+* edit existing comments
+* remove existing comments
+* login with my account to view my created locations and comments
 
 index page:
 * listing of project names, ideally with locations too

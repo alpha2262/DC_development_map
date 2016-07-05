@@ -12,13 +12,14 @@ class SitesController < ApplicationController
   end
 
   # def edit
-  #
+  #   
   # end
 
   def create
+    @site = Site.create!(site_params)
     redirect_to sites_path
   end
-  
+
   # def destroy
   #
   # end
