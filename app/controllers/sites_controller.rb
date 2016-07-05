@@ -18,11 +18,7 @@ class SitesController < ApplicationController
   def create
     redirect_to sites_path
   end
-
-  # def create
-  #
-  # end
-  #
+  
   # def destroy
   #
   # end

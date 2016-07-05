@@ -2,6 +2,8 @@
 <p>Find me in app/views/sites/index.html.erb</p>
 
 <% @sites.each do |list| %>
-  <h1><%= list.location %></h1>
+  <h3><%= list.location %></h3>
+  <li><%= list.construction_type %></li>
+  <li><%= list.building_type %></li>
 
 <% end %>

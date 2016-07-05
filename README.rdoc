@@ -13,8 +13,8 @@ BRONZE:
   * type of construction; new or renovation (text)
   * type of building; commercial, residential, etc. (text; drop down?)
     * get
-    * post
-    * put
+    * post/new/create
+    * edit
     * delete
 * ability to add comments
   * association: comments < sites
