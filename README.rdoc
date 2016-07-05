@@ -1,8 +1,9 @@
 == PLANNING
 
 Tues:
-* add seed data
+* add seed data (including comments)
 * get basic database to accept data
+* show data (persist)
 * schema and migrations set up?
 
 BRONZE:
