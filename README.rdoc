@@ -13,6 +13,7 @@ Wed:
 * add basic css
 * validate html and css
 * wireframes photos (2 or more)
+* update seed data
 * check MVP requirements
 
 BRONZE:
@@ -36,6 +37,7 @@ BRONZE:
     * post
     * put
     * delete
+* add in error message handling? section 5.10
 * deploy online? separate lesson on this next week...
 
 

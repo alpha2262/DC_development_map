@@ -17,13 +17,22 @@ class SitesController < ApplicationController
 
   def create
     @site = Site.create!(site_params)
-    redirect_to sites_path
+
+    if @site.save
+      redirect_to @site
+    else
+      render 'new'
+    end
   end
 
   def update
     @site = Site.find(params[:id])
-    @site.update(site_params)
-    redirect_to sites_path
+
+    if @site.update(site_params)
+      redirect_to sites_path
+    else
+      render 'edit'
+    end
   end
 
   def destroy

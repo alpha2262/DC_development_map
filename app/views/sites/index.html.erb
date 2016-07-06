@@ -1,8 +1,14 @@
 <h1>Sites#index</h1>
 <p>Find me in app/views/sites/index.html.erb</p>
 
+<%= link_to 'new comment', controller: 'comments' %>
+
 <% @sites.each do |list| %>
-  <h3><%= list.location %></h3>
+  <h3><%= link_to list.location, list %></h3>
+  <%= link_to "Delete", site_path(list),
+        method: :delete,
+        data: {confirm: "Are you sure you would like to delete?"} %>
+  <%= link_to "Edit", edit_site_path(list) %>
   <li><%= list.construction_type %></li>
   <li><%= list.building_type %></li>
   <li>Last updated on: <%= list.updated_at %></li>
