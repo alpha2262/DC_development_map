@@ -1,23 +1,4 @@
-<h1> Adding a new location </h1>
-<h2> Does the site already exist? Please check <%= link_to "here", sites_path %> first. </h2>
+<h1> Adding a New Location </h1>
+<h2> Does the site already exist? Please check <%= link_to "here", sites_path %> prior to entering a new location. </h2>
 
-<%= form_for :site, url: sites_path do |f| %>
-  <p>
-    <%= f.label :location %>
-    <%= f.text_field :location%>
-  </p>
-
-  <p>
-    <%= f.label "Construction Type (new or rennovation)" %>
-    <%= f.text_field :construction_type %>
-  </p>
-
-  <p>
-    <%= f.label "Building Type (mixed use, commercial, etc.)" %>
-    <%= f.text_area :building_type %>
-  </p>
-
-  <p>
-    <%= f.submit %>
-  </p>
-<% end %>
+<%= render 'form' %>

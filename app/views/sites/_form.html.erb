@@ -1,0 +1,20 @@
+<%= form_for @site do |f| %>
+  <p>
+    <%= f.label :location %>
+    <%= f.text_field :location%>
+  </p>
+
+  <p>
+    <%= f.label "Construction Type (new or rennovation)" %>
+    <%= f.text_field :construction_type %>
+  </p>
+
+  <p>
+    <%= f.label "Building Type (mixed use, commercial, etc.)" %>
+    <%= f.text_area :building_type %>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>

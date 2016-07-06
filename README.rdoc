@@ -1,17 +1,19 @@
 == PLANNING
 
 Tues:
-* DONE add seed data (including comments)
-* get basic database to accept data
-* show data (persist)
+* DONE add seed data (sites and comments)
+* DONE get basic database to accept data
+* DONE show data (persist)
 * DONE schema and migrations set up?
 
 Wed:
+* start on ruby 5.9
 * edit for sites
 * delete for sites
 * add basic css
 * validate html and css
 * wireframes photos (2 or more)
+* check MVP requirements
 
 BRONZE:
 * two modules, one for site and one for comments
@@ -39,12 +41,15 @@ BRONZE:
 
 SILVER:
 * add up voting for comments
+* add favorites option
 * nest comments? (might have to do this anyway in bronze)
 * add css/html basics
 * enhance location
   * option to either enter a full, real address or
   * text field of general location
 * mapping of locations via open streets map?
+* update timestamp to include newer of post or comment time
+* format time
 
 GOLD:
 * TBD
