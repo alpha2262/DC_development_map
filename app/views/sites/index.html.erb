@@ -7,8 +7,8 @@
         data: {confirm: "Are you sure you would like to delete?"} %>
   <%= link_to "Edit", edit_site_path(list) %>
 <ul>
-  <li><%= list.construction_type %></li>
-  <li><%= list.building_type %></li>
+  <li>Type of construction: <%= list.construction_type %></li>
+  <li>Building type: <%= list.building_type %></li>
   <li>Last updated on: <%= list.updated_at %></li>
 </ul>
 <% end %>

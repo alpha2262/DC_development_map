@@ -1,19 +1,15 @@
 <h2> Viewing <%= @site.location %> </h2>
 
-
-<p>
-  <%= @site.location %>
-</p>
-
 <p>
   Type of construction:
   <%= @site.construction_type %>
 </p>
 
 <p>
-  Building Type:
+  Building type:
   <%= @site.building_type %>
 </p>
+<br>
 
 <h2>Comments</h2>
 <%= render @site.comments %>

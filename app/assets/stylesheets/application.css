@@ -13,3 +13,13 @@
  *= require_tree .
  *= require_self
  */
+
+
+@import 'https://fonts.googleapis.com/css?family=Ubuntu';
+
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #FFF9E4;
+  color: #5C629C;
+}

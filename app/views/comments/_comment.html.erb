@@ -2,11 +2,19 @@
     <%= comment.user%>
     says:
   </p>
-    More information can be found here: <%= comment.link %>
+
   <p>
-    Comment: <%= comment.text %>
+    <%= comment.text %>
   </p>
 
+  <p>
+    More information can be found here: <%= comment.link %>
+  </p>
+
+  <p>
+    Added on: <%= comment.created_at %>
+  </p>
+  
   <p>
   <%= link_to "Remove Comment", [comment.site, comment],
           method: :delete,

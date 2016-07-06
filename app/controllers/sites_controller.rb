@@ -1,4 +1,8 @@
 class SitesController < ApplicationController
+  http_basic_authenticate_with name: "hi", password: "k", except:
+  [:index, :show]
+
+
   def index
     @sites = Site.all
   end
