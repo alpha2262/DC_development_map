@@ -1,0 +1,15 @@
+  <p>
+    <%= comment.user%>
+    says:
+  </p>
+    More information can be found here: <%= comment.link %>
+  <p>
+    Comment: <%= comment.text %>
+  </p>
+
+  <p>
+  <%= link_to "Remove Comment", [comment.site, comment],
+          method: :delete,
+          data: {confirm: "Are you sure you would like to delete this comment?"} %>
+  </p>
+  <br>

@@ -1,6 +1,6 @@
-<h1>Comments#index</h1>
-<p>Find me in app/views/comments/index.html.erb</p>
 
+
+<ul>
 <% @comments.each do |list| %>
   <li> <%= list.user %> </li>
   <li> <%= list.link %> </li>
@@ -8,3 +8,4 @@
   <li> <%= list.site_id %> </li>
   <br>
 <% end %>
+</ul>

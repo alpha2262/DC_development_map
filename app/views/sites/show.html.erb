@@ -1,4 +1,4 @@
-<h1> sites show page</h1>
+<h2> Viewing <%= @site.location %> </h2>
 
 
 <p>
@@ -6,6 +6,7 @@
 </p>
 
 <p>
+  Type of construction:
   <%= @site.construction_type %>
 </p>
 
@@ -13,3 +14,10 @@
   Building Type:
   <%= @site.building_type %>
 </p>
+
+<h2>Comments</h2>
+<%= render @site.comments %>
+
+<h2> Add a commment: </h2>
+
+<%= render 'comments/form' %>

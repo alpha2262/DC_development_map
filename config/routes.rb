@@ -4,8 +4,9 @@ Project2::Application.routes.draw do
   get 'sites/index'
 
   root to: 'sites#index'
-  resources :comments
-  resources :sites
+  resources :sites do
+    resources :comments
+  end
 
 end
 

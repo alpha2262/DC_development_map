@@ -10,7 +10,7 @@ Comment.destroy_all
 Site.destroy_all
 
 residentialX = Site.create(location: "The X", construction_type: "new", building_type: "residential")
-placeY = Site.create(location: "The Y", construction_type: "rennovation", building_type: "mixed use, commercial")
+placeY = Site.create(location: "The Y", construction_type: "renovation", building_type: "mixed use, commercial")
 
-Comment.create(user: "person A", link: "www.google.com", text: "Interesting new development", site: residentialX )
+Comment.create(user: "Person A", link: "www.google.com", text: "Interesting new development", site: residentialX )
 Comment.create(user: "Person B", link: "www.popville.com", text: "Love teh layout!", site: placeY)

@@ -7,13 +7,14 @@ Tues:
 * DONE schema and migrations set up?
 
 Wed:
-* start on ruby 5.9
-* edit for sites
-* delete for sites
+* DONE edit for sites
+* DONE delete for sites
+* DONE comments add
 * add basic css
 * validate html and css
 * wireframes photos (2 or more)
 * update seed data
+* clean up: refactoring content, links, etc.
 * check MVP requirements
 
 BRONZE:
@@ -37,36 +38,26 @@ BRONZE:
     * post
     * put
     * delete
-* add in error message handling? section 5.10
 * deploy online? separate lesson on this next week...
 
 
 SILVER:
+* add data quality validations (e.g. location, web url, etc.)
 * add up voting for comments
 * add favorites option
 * nest comments? (might have to do this anyway in bronze)
-* add css/html basics
+* add "better" css/html
 * enhance location
   * option to either enter a full, real address or
   * text field of general location
 * mapping of locations via open streets map?
 * update timestamp to include newer of post or comment time
 * format time
+* add in error message handling? section 5.10
 
 GOLD:
 * TBD
 
-
-
-User stories/wire framing:
-as a user I'm able to...
-* view a listing of locations when visiting the homepage
-* click an existing site listing to see comments and additional details
-* input location of new development in the area
-* enter new comments on existing projects
-* edit existing comments
-* remove existing comments
-* login with my account to view my created locations and comments
 
 index page:
 * listing of project names, ideally with locations too
