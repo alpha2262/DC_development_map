@@ -59,6 +59,7 @@ SILVER:
 * update timestamp to include newer of post or comment time
 * format time
 * add in error message handling? section 5.10
+* RSpec?
 
 GOLD:
 * mapping of locations via open streets map API?

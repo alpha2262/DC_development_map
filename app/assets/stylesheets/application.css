@@ -18,8 +18,16 @@
 @import 'https://fonts.googleapis.com/css?family=Ubuntu';
 
 
+
 body {
   font-family: 'Ubuntu', sans-serif;
   background-color: #FFF9E4;
   color: #5C629C;
+}
+
+a:link, a:visited {
+  color: #F6700C;
+  text-decoration: none;
+  background-color: transparent;
+  text-shadow: 1px;
 }

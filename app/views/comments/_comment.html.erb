@@ -12,9 +12,9 @@
   </p>
 
   <p>
-    Added on: <%= comment.created_at %>
+    Added on: <%= comment.created_at.strftime("%A, %B %y, %Y at %I:%M%p") %>
   </p>
-  
+
   <p>
   <%= link_to "Remove Comment", [comment.site, comment],
           method: :delete,

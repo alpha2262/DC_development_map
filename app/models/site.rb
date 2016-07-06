@@ -6,10 +6,3 @@ class Site <ActiveRecord::Base
 
 
 end
-
-
-# t.string   "location"
-# t.string   "construction_type"
-# t.string   "building_type"
-# t.datetime "created_at"
-# t.datetime "updated_at"
