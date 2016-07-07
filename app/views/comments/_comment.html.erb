@@ -12,7 +12,7 @@
   </p>
 
   <p>
-    Added on: <%= comment.created_at.strftime("%A, %B %y, %Y at %I:%M%p") %>
+    Comment added: <%= time_ago_in_words(comment.updated_at) %> ago
   </p>
 
   <p>
