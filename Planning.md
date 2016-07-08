@@ -15,10 +15,10 @@ Wed:
 * DONE security section
 * user login
 * validations on data?
-* wireframes photos (2 or more)
+* DONE wireframes photos (2 or more)
 
 Thur:
-* comments added returns the user to page where comment added 
+* comments added returns the user to page where comment added
 * favoriting/up voting?
 * DONE add basic css
 * DONE update seed data
