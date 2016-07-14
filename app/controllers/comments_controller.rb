@@ -1,6 +1,6 @@
 class CommentsController < ApplicationController
-  http_basic_authenticate_with name: "hi", password: "k", only:
-  :destroy
+  # http_basic_authenticate_with name: "hi", password: "k", only:
+  # :destroy
 
   def create
     @site = Site.find(params[:site_id])

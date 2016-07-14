@@ -4,8 +4,6 @@
 * Ruby version 2.3.1p112
 * Developed and tested using OSX 10.11.5, Chrome. Viewing and functionality may vary with other OSs and browsers.
 
-
-
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
