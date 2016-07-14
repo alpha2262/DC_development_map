@@ -13,6 +13,9 @@
 
 ActiveRecord::Schema.define(version: 20160705205827) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "comments", force: :cascade do |t|
     t.string   "user"
     t.string   "link"
@@ -22,7 +25,7 @@ ActiveRecord::Schema.define(version: 20160705205827) do
     t.datetime "updated_at"
   end
 
-  add_index "comments", ["site_id"], name: "index_comments_on_site_id"
+  add_index "comments", ["site_id"], name: "index_comments_on_site_id", using: :btree
 
   create_table "sites", force: :cascade do |t|
     t.string   "location"
