@@ -32,7 +32,7 @@ a:link, a:visited {
   text-shadow: 1px;
 }
 .hero-unit {
-  background-image: url("/assets/building_photo.jpeg");
+  background-image: url("building_photo.jpeg");
   padding: 4em 0;
   background-size: cover;
   background-position: 0 50%;
