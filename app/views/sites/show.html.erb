@@ -1,15 +1,25 @@
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css"> -->
+
 <h2> Viewing <%= @site.location %> </h2>
 
 <p>
   Type of construction:
   <%= @site.construction_type %>
 </p>
-
 <p>
   Building type:
   <%= @site.building_type %>
 </p>
+<p>
+  Site:
+</p>
 <br>
+
+  <iframe width="350" height="250" frameborder="10" src="//www.google.com/maps/embed/v1/place?q=Macys,New%20York,%20New%20York,%20USA
+      &zoom=17
+      &key=AIzaSyDBqG3hEoUoYKbZPgY75AxrzadBGiiO4qU">
+  </iframe>
+
 
 <h2>Comments</h2>
 <%= render @site.comments %>

@@ -16,10 +16,11 @@
 
 
 @import 'https://fonts.googleapis.com/css?family=Ubuntu';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css'
 
 
 
-body {
+html, body {
   font-family: 'Ubuntu', sans-serif;
   background-color: #FFF9E4;
   color: #5C629C;
@@ -31,9 +32,12 @@ a:link, a:visited {
   background-color: transparent;
   text-shadow: 1px;
 }
-.hero-unit {
-  background-image: url("building_photo.jpeg");
+
+
+
+/*.hero-unit {
+  background-image: url("/images/building_photo.jpeg");
   padding: 4em 0;
   background-size: cover;
   background-position: 0 50%;
-}
+}*/

@@ -1,18 +1,28 @@
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css"> -->
+
 <%= form_for @site do |f| %>
   <p>
     <%= f.label :location %>
     <%= f.text_field :location%>
   </p>
 
+<!-- <div class="input-field col s12"> -->
   <p>
-    Construction Type (new or rennovation)
-    <%= f.text_field :construction_type %>
+    Construction Type
+    <!-- <%= f.text_field :construction_type %> -->
+    <%= f.select :construction_type, ["New", "Rennovation"] %>
   </p>
+<!-- </div> -->
 
   <p>
      Building Type (mixed use, commercial, etc.)
     <%= f.text_area :building_type %>
   </p>
+
+  <!-- <p>
+    Site Location:
+      <%= f.text_field :location%>
+  </p> -->
 
   <p>
     <%= f.submit %>
